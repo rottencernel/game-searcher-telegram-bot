@@ -17,7 +17,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 bot.start((ctx) =>
   ctx.reply(
     `
-    Привет ${ctx.message.from.first_name}!,
+    Привет, ${ctx.message.from.first_name}!
 Не знаешь во что погамать? Бот поможет выбрать!
 Если у тебя есть какие либо вопросы, или предложения,
 обязательно напиши мне в телеграм: 89242382749`,
