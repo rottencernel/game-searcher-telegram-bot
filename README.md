@@ -1,2 +1,2 @@
-# bot
+# game-searcher-telegram-bot
 
